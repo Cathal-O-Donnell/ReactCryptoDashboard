@@ -3,7 +3,7 @@ import React from 'react'
 const CurrencyCard = (props) => {
 
     return (
-        <div className='container rounded my-1 card-background white-text d-flex align-items-center'>
+        <div className='container border-radius-12 my-1 card-background white-text d-flex align-items-center'>
             <div className='col-md-4'>
                 <p className='fs-5 text-center'>{props.title}</p>
             </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const PriceCard = (props) => {
     return (
-        <div className='container rounded card-background p-2 my-1 d-flex align-items-center'>
+        <div className='container border-radius-12 card-background p-2 my-1 d-flex align-items-center'>
             <div className='col-md-12'>
                 <div className='row'>
                     <p className='text-secondary fs-6'>{props.title} (24h)</p>

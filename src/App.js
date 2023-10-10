@@ -84,7 +84,7 @@ function App() {
           <div className="row">
             <PriceCard title="Bitcoin" amount="1254.36" increasePercentage="0.6" fiatCurrencyShortName="USD"></PriceCard>
             <PriceCard title="Litecoin" amount="1254.36" increasePercentage="0.6" fiatCurrencyShortName="USD"></PriceCard>
-            <PriceCard title="•Ethereum" amount="1254.36" increasePercentage="0.6" fiatCurrencyShortName="USD"></PriceCard>
+            <PriceCard title="Ethereum" amount="1254.36" increasePercentage="0.6" fiatCurrencyShortName="USD"></PriceCard>
             <PriceCard title="Ripple" amount="1254.36" increasePercentage="0.6" fiatCurrencyShortName="USD"></PriceCard>
           </div>
         </div>

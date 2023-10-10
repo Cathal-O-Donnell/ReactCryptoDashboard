@@ -65,7 +65,7 @@ export const data = {
       // label: 'Dataset 1',
       data: [2650, 2590, 2800, 3810, 3560, 2550, 1400, 700, 1750, 1900, 1950, 1600, 2610, 3450, 2500, 1770, 1780, 1910, 2920, 2620, 2630],
       fill: true,
-      borderColor: 'rgb(75, 192, 192)',
+      borderColor: 'rgb(124, 112, 255)',
       tension: 0.2,
       pointBackgroundColor: 'rgb(153, 102, 255)'
     },

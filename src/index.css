@@ -63,6 +63,10 @@ code {
   margin-right: 10px;
 }
 
+.border-radius-12 {
+  border-radius: 12px;
+}
+
 .timeline-button {
   background-color: #3A3361;
   border: 2px solid #40386C !important;
