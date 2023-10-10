@@ -58,15 +58,15 @@ function App() {
             <CryptoChart></CryptoChart>
           </div>
 
-          <div class="container">
-            <div class="row margin-bottom-20">
+          <div className="container">
+            <div className="row margin-bottom-20">
               <InfoContainer title="24hr Volume" body="$1236548.325"></InfoContainer>
               <InfoContainer title="Market Cap" body="19B USD"></InfoContainer>
               <InfoContainer title="Circulating Supply" body="294M BTC"></InfoContainer>
               <InfoContainer title="All Time High" body="19.783.06 USD"></InfoContainer>
             </div>
 
-            <div class="row margin-bottom-20">
+            <div className="row margin-bottom-20">
               <InfoContainer title="Typical hold time" body="98 days"></InfoContainer>
               <InfoContainer title="Trading activity" body="Active"></InfoContainer>
               <InfoContainer title="Popularity" body="#1 most held"></InfoContainer>
@@ -82,10 +82,10 @@ function App() {
           </div>
 
           <div className="row">
-            <PriceCard title="Bitcoin" amount="1254.36" increasePercentage="0.6" fiatCurrencyShortName="USD"></PriceCard>
-            <PriceCard title="Litecoin" amount="1254.36" increasePercentage="0.6" fiatCurrencyShortName="USD"></PriceCard>
-            <PriceCard title="Ethereum" amount="1254.36" increasePercentage="0.6" fiatCurrencyShortName="USD"></PriceCard>
-            <PriceCard title="Ripple" amount="1254.36" increasePercentage="0.6" fiatCurrencyShortName="USD"></PriceCard>
+            <PriceCard title="Bitcoin" amount="1254.36" percentageChange="+ 0.6" isIncreasePercentage={true} fiatCurrencyShortName="USD"></PriceCard>
+            <PriceCard title="Litecoin" amount="1254.36" percentageChange="- 0.6" isIncreasePercentage={false} fiatCurrencyShortName="USD"></PriceCard>
+            <PriceCard title="Ethereum" amount="1254.36" percentageChange="- 0.6" isIncreasePercentage={false} fiatCurrencyShortName="USD"></PriceCard>
+            <PriceCard title="Ripple" amount="1254.36" percentageChange="+ 0.6" isIncreasePercentage={true} fiatCurrencyShortName="USD"></PriceCard>
           </div>
         </div>
       </div>
