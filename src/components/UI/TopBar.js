@@ -9,7 +9,7 @@ const TopBar = () => {
         <div className="container topBar-bottom-border mw-100 padding-10">
             <div className="row">
                 <div className="col-8">
-                   1
+                   
                 </div>
                 <div className="col-2">
                     <AvailableBalance></AvailableBalance>
