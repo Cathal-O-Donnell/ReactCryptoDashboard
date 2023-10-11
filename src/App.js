@@ -10,6 +10,7 @@ import SectionTitle from './components/UI/SectionTitle';
 import TimelineSelector from './components/UI/TimelineSelector';
 import TopBar from './components/UI/TopBar';
 import TotalBalance from './components/UI/TotalBalance';
+import WelcomeText from "./components/UI/WelcomeText";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -25,12 +26,14 @@ function App() {
   return (
     <div>
       <TopBar></TopBar>
-      <div className="container margin-top-60">
+      <div className="container margin-top-20">
         
         <div className="row">
 
           {/* Left Column */}
           <div className="col-md-2 padding-side-10">
+
+            <WelcomeText></WelcomeText>
             <div className="row margin-bottom-20">
               <SectionTitle title="Your Porfolio"></SectionTitle>
             </div>
