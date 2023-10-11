@@ -18,7 +18,20 @@ code {
 }
 
 .card-background {
-  background-color: #423A6F
+  background-color: #423A6F !important;
+}
+
+.card-background-dark {
+  background-color: #3A3361 !important;
+}
+
+.topBar-bottom-border {
+  border-bottom: 1px solid;
+  border-color: #41396E;
+}
+
+.padding-10 {
+  padding: 10px;
 }
 
 .padding-20 {
@@ -50,6 +63,10 @@ code {
   margin-bottom: 20px;
 }
 
+.margin-top-60 {
+  margin-top: 60px;
+}
+
 .margin-right-10 {
   margin-right: 10px;
 }
@@ -61,6 +78,12 @@ code {
 .margin-sides-10 {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.margin-side-0 {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  width: 100%;
 }
 
 .border-radius-12 {
@@ -81,6 +104,10 @@ code {
   border: 2px solid #7B6FFF !important;
 }
 
+.border-2 {
+  border: 2px solid #40386C !important;
+}
+
 .white-text {
   color: #F6F6F8 !important;
 }
@@ -93,6 +120,10 @@ code {
   color: #252B2B !important;
 }
 
+.purple-text {
+  color: #6F65E2 !important;
+}
+
 .positive-badge {
   background-color: #77C454 !important;
   padding-left: 5px;
@@ -103,4 +134,18 @@ code {
   background-color: #FF788E !important;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.navbar-background {
+  background-color: #342C58;
+}
+
+.rounded-left {
+  border-bottom-left-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+}
+
+.rounded-right {
+  border-bottom-right-radius: 20px !important;
+  border-top-right-radius: 20px !important;
 }
